@@ -14,5 +14,13 @@
        "species": "Helianthus annuus",
        "habitat": "Open fields, grassland, and cultivated farms",
        "description": "Tall, bright yellow flowers with a large dark brown center"
-   }
+   },
+   
+   {
+    "name": "Tulips",
+    "color": "red",
+    "species": "Helianthus annuus",
+    "habitat": "Open fields, grassland, and cultivated farms",
+    "description": "Tall, bright yellow flowers with a large dark brown center"
+}
 ]

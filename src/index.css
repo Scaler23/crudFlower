@@ -4,7 +4,11 @@
     margin: 0;
 }
 html{
+    background-image: url(./assets/flower-background-template-free-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
 }
 main{
 padding: 10px;

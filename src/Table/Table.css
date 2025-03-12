@@ -7,7 +7,7 @@ table {
   
   table th {
     padding: 10px 40px;
-    background-color: green;
+    background-color: rgb(26, 26, 26);
     color: white;
     font-weight: bold;
   }
@@ -26,7 +26,8 @@ table {
     justify-content: center;
     flex-direction: column;
     gap: 2rem;
-    background-color: #bdbdbd;
+    background-color: rgba(255, 105, 180, 0.8);
+    
     padding: 20px 30px;
   }
   
@@ -49,7 +50,7 @@ table {
   
   .addbtn {
     padding: 10px 20px;
-    background-color: #237a2a;
+    background-color: #1d1d1d;
     color: white;
     border: none;
     border-radius: 5px;
@@ -58,7 +59,8 @@ table {
   }
   
   .addbtn:hover {
-    background-color: #00b344;
+    background-color: #616161;
+    
   }
   
   /* Table styling */
@@ -133,7 +135,7 @@ table {
   
     .form {
       width: 100%;
-      max-width: 400px;
+    
     }
   
     input {
