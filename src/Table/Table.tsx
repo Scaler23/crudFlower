@@ -2,16 +2,16 @@ import { useState, useRef } from "react";
 import Data from "../data.json";
 import "./Table.css";
 
-const Table = () => {
-  // Corrected type
-  type Flower = {
-    name: string;
-    color: string;
-    species: string;
-    habitat: string;
-    description: string;
-  };
+// Type Definition (Single Declaration Only)
+type Flower = {
+  name: string;
+  color: string;
+  species: string;
+  habitat: string;
+  description: string;
+};
 
+const Table = () => {
   // Ensure Data is correctly typed
   const initialData: Flower[] = Array.isArray(Data) ? (Data as Flower[]) : [];
   const [data, setData] = useState<Flower[]>(initialData);
@@ -62,15 +62,7 @@ const Table = () => {
 };
 
 // AddFlower component
-type Flower = {
-  name: string;
-  color: string;
-  species: string;
-  habitat: string;
-  description: string;
-};
 function AddFlower({
-  
   setData,
   editIndex,
   setEditIndex,
@@ -100,13 +92,7 @@ function AddFlower({
       alert("All fields are required!");
       return;
     }
-    type Flower = {
-      name: string;
-      color: string;
-      species: string;
-      habitat: string;
-      description: string;
-    };
+
     const newFlower: Flower = {
       name,
       color,
