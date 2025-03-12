@@ -2,7 +2,7 @@ import { useState, useRef } from "react";
 import Data from "../data.json";
 import "./Table.css";
 
-// Type Definition (Single Declaration Only)
+// Type Definition
 type Flower = {
   name: string;
   color: string;
@@ -29,7 +29,7 @@ const Table = () => {
 
   return (
     <div className="container">
-      <AddFlower setData={setData} editIndex={editIndex} setEditIndex={setEditIndex} data={data} />
+      <AddFlower setData={setData} editIndex={editIndex} setEditIndex={setEditIndex} />
       <table>
         <thead>
           <tr>
@@ -66,12 +66,10 @@ function AddFlower({
   setData,
   editIndex,
   setEditIndex,
-  data,
 }: {
   setData: React.Dispatch<React.SetStateAction<Flower[]>>;
   editIndex: number | null;
   setEditIndex: React.Dispatch<React.SetStateAction<number | null>>;
-  data: Flower[];
 }) {
   const nameRef = useRef<HTMLInputElement>(null);
   const colorRef = useRef<HTMLInputElement>(null);
