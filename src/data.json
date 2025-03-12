@@ -1,26 +1,26 @@
 
 [
    {
-       "name": "sunflow",
-       "color": "yellow",
+       "name": "Sunflower",
+       "color": "Yellow",
        "species": "Helianthus annuus",
        "habitat": "Open fields, grassland, and cultivated farms",
        "description": "Tall, bright yellow flowers with a large dark brown center"
    },
 
    {
-       "name": "rose",
-       "color": "red",
-       "species": "Helianthus annuus",
-       "habitat": "Open fields, grassland, and cultivated farms",
-       "description": "Tall, bright yellow flowers with a large dark brown center"
+       "name": "Rose",
+       "color": "Red",
+       "species": "Damask rose",
+       "habitat": "Climate: Prefers a temperate climate with moderate rainfall. It can tolerate cold winters but needs dry, warm summers for optimal flowering",
+       "description": " Strong, sweet, and distinctive, ideal for perfumery"
    },
-   
+
    {
     "name": "Tulips",
-    "color": "red",
-    "species": "Helianthus annuus",
-    "habitat": "Open fields, grassland, and cultivated farms",
-    "description": "Tall, bright yellow flowers with a large dark brown center"
+    "color": "Red",
+    "species": "Garden Tulip",
+    "habitat": "Native to Central Asia, particularly the Tien Shan and Pamir mountains",
+    "description": "Cup-shaped or star-like with 6 petals (3 true petals, 3 sepals)"
 }
 ]
